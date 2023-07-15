@@ -1,4 +1,5 @@
-#include "Game3/Game3.h"
+#include "stdafx.h"
+#include "GamePlat/Game4.h"
 
 
 int main()
@@ -6,7 +7,7 @@ int main()
     //creating a window     
 
     
-    Game3 game;
+    Game4 game;
 
     srand(static_cast<unsigned>(time(NULL)));
     

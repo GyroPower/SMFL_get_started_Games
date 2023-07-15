@@ -30,10 +30,31 @@
     <ClCompile Include="src\Game2\swagball.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\GamePlat\Game4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game3\Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game3\Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="src\Game3\Game3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\Game3\PlayerGame3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GamePlat\PlayerGame4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GamePlat\Tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GamePlat\TileMap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -50,14 +71,62 @@
     <ClInclude Include="src\Game2\swagball.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\GamePlat\Game4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game3\Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game3\Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="src\Game3\Game3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\Game3\PlayerGame3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\GamePlat\PlayerGame4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GamePlat\Tile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GamePlat\TileMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Font Include="fonts\joystix.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\openal32.dll" />
+    <None Include="bin\sfml-audio-2.dll" />
+    <None Include="bin\sfml-audio-d-2.dll" />
+    <None Include="bin\sfml-graphics-2.dll" />
+    <None Include="bin\sfml-graphics-d-2.dll" />
+    <None Include="bin\sfml-network-2.dll" />
+    <None Include="bin\sfml-network-d-2.dll" />
+    <None Include="bin\sfml-system-2.dll" />
+    <None Include="bin\sfml-system-d-2.dll" />
+    <None Include="bin\sfml-window-2.dll" />
+    <None Include="bin\sfml-window-d-2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\background1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\bullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\ship.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\player_sheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
